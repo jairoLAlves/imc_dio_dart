@@ -3,7 +3,7 @@
 ## Desafio de Projeto Dio.
 
 
-- [ ] Ciar classe Pessoa (Nome / Peso / Altura)
+- [ ] Criar classe Pessoa (Nome / Peso / Altura)
 
 - [ ] Ler dados do terminal
 
