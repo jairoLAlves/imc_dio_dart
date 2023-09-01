@@ -3,15 +3,15 @@
 ## Desafio de Projeto Dio.
 
 
-- [ ] Criar classe Pessoa (Nome / Peso / Altura)
+- [x] Criar classe Pessoa (Nome / Peso / Altura)
 
-- [ ] Ler dados do terminal
+- [x] Ler dados do terminal
 
-- [ ] Tratar exceções
+- [x] Tratar exceções
 
-- [ ] Calcular IMC
+- [x] Calcular IMC
 
-- [ ] Exibir na tela o resultado do cálculo
+- [x] Exibir na tela o resultado do cálculo
 
 - [ ] Testes
 
