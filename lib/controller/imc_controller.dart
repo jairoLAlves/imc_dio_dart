@@ -16,8 +16,10 @@ class IMCController {
 
     while (true) {
       double? n = double.tryParse(await ConsoleUtil.reader(msg));
+
       if (n != null) {
         numRetorno = n;
+
         break;
       } else {
         msg = 'Digite um numero válido';
@@ -28,8 +30,12 @@ class IMCController {
   }
 
   void printIMC(Pessoa pessoa) {
-    var imc = MathUtil.calcularIMC(pessoa.peso!, pessoa.altura!);
-    print(
-        'Seu IMC é: ${imc.toStringAsFixed(2)} =  ${ConsoleUtil.imcStatus(imc)}');
+    try {
+      double? imc = MathUtil.calcularIMC(pessoa.peso!, pessoa.altura!);
+      print(
+          'Seu IMC é: ${imc.toStringAsFixed(2)} =  ${ConsoleUtil.imcStatus(imc)}');
+    } catch (e) {
+      print('Error: $e');
+    }
   }
 }

@@ -13,7 +13,7 @@
 
 - [x] Exibir na tela o resultado do cálculo
 
-- [ ] Testes
+- [x] Testes
 
 
 ###  $ IMC = Peso / altura^2 $
@@ -32,4 +32,4 @@
 
 
 
-![Badge em Desenvolvimento](https://img.shields.io/static/v1?label=STATUS&message=em%20desenvolvimento.&color=EEAD2D&style=for-the-badge)
+![Badge complete](https://img.shields.io/static/v1?label=STATUS&message=complete.&color=greem&style=for-the-badge)
